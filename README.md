@@ -3,7 +3,7 @@
     <img src="https://avatars.githubusercontent.com/u/84624853?v=4" width="100" height="100">
   </a>
 
-  <h3 align="center">Personal Sİte</h3>
+  <h3 align="center">Personal Site</h3>
 
   <p align="center">
    This repo will be my Personal Site.
