@@ -62,6 +62,9 @@ In this repository, I will build my Personal Site while learning CSS.
 
 
   - [x] Project Setup
+  - [x] Favicons
+  - [x] SRC Folder
+  - [x] CSS Folder
 
 
 
