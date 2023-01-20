@@ -17,7 +17,7 @@ hr {
 }
 .name {
   font-family: "Sofia Sans", sans-serif;
-  color: #B5D5C5;
+  color: #b5d5c5;
   margin-top: 5%;
   font-size: 50px;
   font-weight: bolder;
@@ -34,20 +34,36 @@ hr {
   font-size: xx-large;
   margin-bottom: 0;
 }
-
-.top-cloud {
-  position: absolute;
-  top: 5%;
-  right: 30%;
-  width: 10%;
+@media all and (min-width: 200px) and (max-width: 500px) {
+  .top-cloud {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 10%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 10%;
+  }
 }
 
-.bottom-cloud {
-  position: absolute;
-  top: 25%;
-  left: 30%;
-  width: 10%;
+@media all and (min-width: 700px) {
+  .top-cloud {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    width: 10%;
+  }
+  .bottom-cloud {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 10%;
+  }
 }
+
 .mountain {
   position: relative;
   width: 50%;
@@ -94,10 +110,10 @@ hr {
   text-align: center;
   padding: 0% 5% 0 5%;
 }
-.year{
+.year {
   font-weight: 700;
   font-family: "Sofia Sans", sans-serif;
-  color: #B5D5C5;
+  color: #b5d5c5;
   font-size: 14px;
 }
 .highlighted {
@@ -105,7 +121,6 @@ hr {
   font-weight: 700;
   font-family: "Sofia Sans", sans-serif;
   color: #b08bbb;
-
 }
 #spec-contact {
   font-family: "Sofia Sans", sans-serif;
@@ -116,19 +131,18 @@ hr {
 }
 #signature {
   font-family: "Sacramento", cursive;
-  font-weight:700;
-  color: #B5D5C5;
-
+  font-weight: 700;
+  color: #b5d5c5;
 }
-#get-in-touch{
+#get-in-touch {
   font-family: "Sacramento", cursive;
   font-size: 25px;
 }
-#down-img{
+#down-img {
   height: 150px;
   width: 150px;
   margin: 0 auto;
-  padding: 0%;  
+  padding: 0%;
   border-style: solid;
   border-color: #b08bbb;
   border-width: 5px;
