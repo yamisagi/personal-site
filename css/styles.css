@@ -1,25 +1,35 @@
+/* 1rem = 1em = 16px */
+/* rem = relative to root element */
+/* em = relative to parent element */
+/* px = absolute */
+/* Yani em kullanırsan, parent elementi değişirse, font-size değişir. */
+/* rem kullanırsan, root elementi değişirse, font-size değişir. */
+/* px kullanırsan, font-size değişmez. */
+/* Bu yüzden rem kullanmak daha güvenli bir yol sunar. */
+
 hr {
   height: 2px;
   border-style: dotted none none none;
   border-color: #eca869;
-  border-width: 5px;
-  width: 50%;
-  padding: auto;
-  margin: 5% auto;
+  border-width: 0.3125rem;
+  width: 50%; 
+  margin: 2% auto;
 }
 .container {
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  width: 100%;
-  height: 100%;
+  position: relative;
+  background-color: #b08bbb;
+  padding-top: 11.5%;
+
+  
 }
 .name {
-  font-family: "Sofia Sans", sans-serif;
-  color: #b5d5c5;
-  margin-top: 5%;
-  font-size: 50px;
+  font-family: "Sacramento", cursive;
+  /* letter-spacing: 1px; */
+  color: #eca869;
+  position: relative;
+  bottom: 75px;
+  font-size: 4rem;
+  margin-bottom: 0;
   font-weight: bolder;
 }
 .b-1 {
@@ -28,11 +38,18 @@ hr {
   text-align: center;
 }
 .defining {
-  font-family: "Sacramento", cursive;
-  letter-spacing: 1px;
-  color: #eca869;
-  font-size: xx-large;
+  font-family: "Sofia Sans", sans-serif;
+  color: #b5d5c5;
+  position: relative;
+  bottom: 50px;
+  font-size: 2rem;
+  margin-top: 0;
   margin-bottom: 0;
+  font-style: italic;
+}
+.skill-row{
+  margin: auto;
+  width: 50%;
 }
 @media all and (min-width: 200px) and (max-width: 500px) {
   .top-cloud {
@@ -68,7 +85,7 @@ hr {
   position: relative;
   width: 50%;
   height: 50%;
-  top: 40%;
+  top: 75%;
 }
 .web-development {
   font-style: italic;
@@ -79,34 +96,38 @@ hr {
 .introduction {
   font-family: "Sofia Sans", sans-serif;
   color: #eca869;
-  font-size: 20px;
-  text-align: center;
-  padding: 2% 5% 0 5%;
+  font-size: 1.25rem;
+  text-align: left;
+  padding: 0% 5% 0 5%;
+  line-height: 2;
 }
+
 .spec-header {
   font-style: italic;
   font-family: "Sofia Sans", sans-serif;
   color: #b08bbb;
-  font-size: 40px;
+  font-size: 2.5rem;
+
 }
 
 .spec-h3 {
   font-family: "Sofia Sans", sans-serif;
   color: #b08bbb;
-  font-size: 30px;
-  text-align: center;
-  padding: 0% 5% 0 5%;
+  font-size: 1.875rem;
+  text-align: left;
+
 }
 .skill-img {
-  height: 5%;
-  width: 5%;
-  margin: 0 auto;
-  padding: 0%;
+  float: left;
+  height:10%;
+  width: 10%;
+  margin-right: 25px;
+  padding: 2% 0 2% 0;
 }
 .footer-link {
   font-family: "Sofia Sans", sans-serif;
   color: #b08bbb;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align: center;
   padding: 0% 5% 0 5%;
 }
@@ -114,7 +135,7 @@ hr {
   font-weight: 700;
   font-family: "Sofia Sans", sans-serif;
   color: #b5d5c5;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .highlighted {
   font-style: inherit;
@@ -125,7 +146,7 @@ hr {
 #spec-contact {
   font-family: "Sofia Sans", sans-serif;
   color: #eca869;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: center;
   padding: 0% 5% 0 5%;
 }
@@ -136,15 +157,31 @@ hr {
 }
 #get-in-touch {
   font-family: "Sacramento", cursive;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 #down-img {
-  height: 150px;
-  width: 150px;
-  margin: 0 auto;
+  height: 9.375rem;
+  width: 9.375rem;
+  margin: 2% auto;
   padding: 0%;
   border-style: solid;
   border-color: #b08bbb;
-  border-width: 5px;
+  border-width: 0.3125rem;
   border-radius: 100%;
+  float: none;
+}
+#special-introduction{
+  font-family: "Sofia Sans", sans-serif;
+  color: #eca869;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 2% 5% 0 5%;
+}
+#special-h3{
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+  font-size: 1.875rem;
+  text-align: center;
+  margin: 2% 5% 0 5%;
+  padding: 2% 5% 0 5%;
 }
