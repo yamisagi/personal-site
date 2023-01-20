@@ -1,3 +1,12 @@
+hr {
+  height: 2px;
+  border-style: dotted none none none;
+  border-color: #eca869;
+  border-width: 5px;
+  width: 50%;
+  padding: auto;
+  margin: 5% auto;
+}
 .container {
   margin-top: 0px;
   margin-left: 0px;
@@ -7,10 +16,10 @@
   height: 100%;
 }
 .name {
-  font-family: 'Sofia Sans', sans-serif;
-  color: #b08bbb;
+  font-family: "Sofia Sans", sans-serif;
+  color: #B5D5C5;
   margin-top: 5%;
-  font-size:40px;
+  font-size: 50px;
   font-weight: bolder;
 }
 .b-1 {
@@ -19,7 +28,7 @@
   text-align: center;
 }
 .defining {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   letter-spacing: 1px;
   color: #eca869;
   font-size: xx-large;
@@ -44,4 +53,77 @@
   width: 50%;
   height: 50%;
   top: 40%;
+}
+.web-development {
+  font-style: italic;
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+  text-decoration: underline;
+}
+.introduction {
+  font-family: "Sofia Sans", sans-serif;
+  color: #eca869;
+  font-size: 20px;
+  text-align: center;
+  padding: 2% 5% 0 5%;
+}
+.spec-header {
+  font-style: italic;
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+  font-size: 40px;
+}
+
+.spec-h3 {
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+  font-size: 30px;
+  text-align: center;
+  padding: 0% 5% 0 5%;
+}
+.skill-img {
+  height: 5%;
+  width: 5%;
+  margin: 0 auto;
+  padding: 0%;
+}
+.footer-link {
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+  font-size: 15px;
+  text-align: center;
+  padding: 0% 5% 0 5%;
+}
+.year{
+  font-weight: 700;
+  font-family: "Sofia Sans", sans-serif;
+  color: #B5D5C5;
+  font-size: 14px;
+}
+#spec-contact {
+  font-family: "Sofia Sans", sans-serif;
+  color: #eca869;
+  font-size: 20px;
+  text-align: center;
+  padding: 0% 5% 0 5%;
+}
+#signature {
+  font-family: "Sacramento", cursive;
+  font-weight:700;
+  color: #B5D5C5;
+
+}
+#get-in-touch{
+  font-family: "Sacramento", cursive;
+  font-size: 25px;
+}
+#down-img{
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  padding: 0%;  
+  border-style: solid;
+  border-color: #b08bbb;
+  border-width: 5px;
+  border-radius: 100%;
 }
