@@ -65,8 +65,8 @@ In this repository, I will build my Personal Site while learning CSS.
   - [x] Favicons
   - [x] SRC Folder
   - [x] CSS Folder
-
-
+  - [x] Img Folder
+  - [x] Styling page with CSS using Classes-IDs
 
 
 <p align="center">(Still working on it...)</p>

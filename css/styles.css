@@ -100,6 +100,13 @@ hr {
   color: #B5D5C5;
   font-size: 14px;
 }
+.highlighted {
+  font-style: inherit;
+  font-weight: 700;
+  font-family: "Sofia Sans", sans-serif;
+  color: #b08bbb;
+
+}
 #spec-contact {
   font-family: "Sofia Sans", sans-serif;
   color: #eca869;
@@ -118,8 +125,8 @@ hr {
   font-size: 25px;
 }
 #down-img{
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin: 0 auto;
   padding: 0%;  
   border-style: solid;
